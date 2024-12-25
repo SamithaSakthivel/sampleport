@@ -228,34 +228,7 @@ h3{
 .bar{
     margin-bottom:15px;
 }
-@media only screen and (max-width: 768px) {
-    .navbar {
-      height: 80px; /* Increase navbar height for better navigation */
-    }
-  
-    .div1 {
-      /* Move the menu items to a stacked layout */
-      display: flex;
-      flex-direction: column;
-      margin-left: 0; /* Remove margin for better alignment */
-    }
-  
-    .container {
-      flex-direction: column; /* Stack elements vertically */
-      margin: 20px; /* Adjust margin for smaller screens */
-    }
-  
-    .image {
-      margin: 0 auto; /* Center image horizontally */
-    }
-  
-    .sci-box {
-      /* Adjust spacing between social media icons */
-      gap: 10px;
-    }
-  
-    /* Add more media queries for different screen sizes as needed */
-  }
+
 
 
 
